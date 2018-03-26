@@ -4,6 +4,7 @@ const geocode = require('./public/gmaps.js');
 const darksky = require('./public/darksky.js');
 const hbs = require('hbs');
 const fs = require('fs');
+const port = process.env.PORT || 8080;
 
 var app = express();
 
@@ -65,7 +66,7 @@ app.get('/weather', (request, response) => {
 	})
 });
 
-app.listen(8080, () => {
+app.listen(port, () => {
     console.log('Server is up on the port 8080');
     // here add the logic to return the weather based on the statically provided location and save it inside the weather variable
 
