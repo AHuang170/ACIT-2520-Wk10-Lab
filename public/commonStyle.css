@@ -1,0 +1,74 @@
+.titleText{
+	margin: auto;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+}
+.mainContentBox{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	height: 80px;
+	width: 300px;
+	border: 5px groove;
+	border-color: chocolate;
+}
+
+.contentLink{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	width: 90%;
+	height: 23px;
+	color: white;
+	background-color: black;
+	cursor: pointer;
+	text-align: center;
+	vertical-align: middle;
+	transition: 500ms;
+}
+.contentLink:hover{
+	color: black;
+	background-color: white;
+}
+
+#aboutLink{
+	top: 10px;
+}
+
+#weatherLink{
+	bottom: 10px;
+}
+
+#backLink{
+	bottom: -32px;
+}
+
+.info{
+	position: absolute;
+	top: -10px;
+	left: 10px;
+	width: 100%;
+	height: 70px;
+
+}
+
+.footer{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 10%;
+	color: black;
+	text-align: center;
+
+}
+
+.page_img{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 15%;
+	margin: auto;
+}
