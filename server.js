@@ -30,8 +30,8 @@ app.use((request, response, next) => {
 	// 		console.log('Unable to log message');
 	// 	}
 	// })
-	response.render('maintenance.hbs');
-	//next();
+	// response.render('maintenance.hbs');
+	next();
 });
 
 // here add routes
